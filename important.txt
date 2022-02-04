@@ -1,0 +1,14 @@
+- Initialize an application with the command: go mod init booking-app
+- All code must belong to some package
+- Run code using: go run
+
+Data Type in GO:
+- STRINGS   -> Textual Data
+- INTEGERS  -> Numeric Data
+- FLOAT     -> Decimal Data
+- BOOLEANS
+- MAPS
+- ARRAYS    -> Arrays in GoLang have a fixed size and we can't mix datatypes in arrays
+- SLICES
+
+
