@@ -1,0 +1,23 @@
+- Desgined to run on multiple cores and built to support concurrency
+- Concurrency in GO is cheap and easy
+- Many cloud microservices like Docker, Kubernetes etc have been written in GO
+
+- Simple syntax
+- Fast build time, easy to start up and run
+- Require fewer resources
+- compiles very quickly and CONSISTENT ACROSS OS
+
+
+Main Use Case of GO:
+
+- For Performant Applications
+- Running on Scaled, distributed systems
+- Used in server-side or backend language [Microservices, Web Applications, Database Services
+]
+
+Characteristics:
+
+- Simple and readable syntax of a dynamically typed language like Python
+- Efficiency and safety of a lower level language like C++
+
+
