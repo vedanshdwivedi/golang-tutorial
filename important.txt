@@ -22,9 +22,9 @@ Data Type in GO:
 Loops:
 
 - GoLang only has FOR loops
-    -> Infinite Loop        for{}
-    -> For Each Loop    for ind, val := values {}
-    -> Execute code until some condition is met     for a > 0 && b < 0 {}  
+    - Infinite Loop        for{}
+    - For Each Loop    for ind, val := values {}
+    - Execute code until some condition is met     for a > 0 && b < 0 {}  
 
 
 Conditionals:
