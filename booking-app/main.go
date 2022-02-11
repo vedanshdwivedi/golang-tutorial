@@ -18,7 +18,7 @@ func main() {
 	greetUser()
 	for {
 		firstName, lastName, email, userTickets := getUserInputs()
-		input_validity := userInputValidation(firstName, lastName, email, userTickets)
+		input_validity := UserInputValidation(firstName, lastName, email, userTickets)
 		if !input_validity {
 			continue
 		}
@@ -77,7 +77,7 @@ func printFirstNames() []string {
 
 }
 
-func userInputValidation(firstName string, lastName string, email string, userTickets uint) bool {
+func UserInputValidation(firstName string, lastName string, email string, userTickets uint) bool {
 	inputsAreValid := true
 	isValidName := len(firstName) >= 2 && len(lastName) >= 2
 	isValidEmail := strings.Contains(email, "@")

@@ -7,7 +7,7 @@ Data Type in GO:
 - INTEGERS  -> Numeric Data
 - FLOAT     -> Decimal Data
 - BOOLEANS
-- MAPS
+- MAPS      -> All keys have same datatype and all values have same datatype
 - ARRAYS    -> Arrays in GoLang have a fixed size and we can't mix datatypes in arrays
             New arrays can be declared in the following ways
             1. var bookings [50]string
